@@ -1,0 +1,6 @@
+name: PartySK
+version: ${project.version}
+main: net.d3jott.partysk.PartySK
+author: D3joTT
+depend: [Skript]
+softdepend: [Spigot-Party-API-PAF]

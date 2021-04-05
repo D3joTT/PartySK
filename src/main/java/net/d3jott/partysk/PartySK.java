@@ -19,12 +19,12 @@ public final class PartySK extends JavaPlugin {
         addon = Skript.registerAddon(this);
 
         try {
-            addon.loadClasses("net.d3jott.PartyAddon", "elements");
+            addon.loadClasses("net.d3jott.partysk", "elements");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        Bukkit.getLogger().info("PartyAddon has been enabled!");
+        Bukkit.getLogger().info("PartySK has been loaded!");
 
     }
 

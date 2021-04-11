@@ -10,10 +10,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.jetbrains.annotations.Nullable;
 
-public class isPlayerLeader extends Condition {
+public class IsPlayerLeader extends Condition {
 
     static {
-        Skript.registerCondition(isPlayerLeader.class, "%player% (1¦is|2¦is(n't| not)) [the] partyleader");
+        Skript.registerCondition(IsPlayerLeader.class, "%player% (1¦is|2¦is(n't| not)) [the] party leader");
     }
 
     PartyAndFriends paf = new PartyAndFriends();

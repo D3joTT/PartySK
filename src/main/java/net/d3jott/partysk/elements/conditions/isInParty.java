@@ -31,7 +31,7 @@ public class isInParty extends Condition {
     @Override
     public String toString(@Nullable Event event, boolean debug) {
 
-        return player.toString(event, debug) + " is in party ";
+        return player.toString(event, debug) + " is in party";
     }
 
     @Override
